@@ -1,0 +1,29 @@
+/*
+
+head részben ez volt megadva a html fájlban = INTERNAL CSS
+ <style>
+        h1 {
+            color: red;
+        }
+        p {
+            color: grey;
+            font-size: 24px;
+        }
+</style>
+
+body részben a html fájlban - INLINE CSS
+  <h1 style="color: green;" > Hello TTA983 programmer</h1>
+
+*/
+
+h1 {
+    color: green;
+    font-family: Times, 'Times New Roman', serif;
+}
+p {
+    color: gray;
+    font-size: 24px;
+}
+img {
+    height: 225px;
+}
