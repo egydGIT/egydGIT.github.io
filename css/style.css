@@ -16,14 +16,86 @@ body részben a html fájlban - INLINE CSS
 
 */
 
-h1 {
-    color: green;
-    font-family: Times, 'Times New Roman', serif;
+@font-face {
+    font-family: "oswald";
+    src: url("fonts/Oswald/static/Oswald-Regular.ttf");
+    font-weight: 500;
 }
-p {
-    color: gray;
-    font-size: 24px;
+
+@font-face {
+    font-family: "oswald-light";
+    src: url("fonts/Oswald/static/Oswald-Light.ttf");
+    font-weight: 200;
 }
+
+html {
+    font-family: "oswald-light";
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+    text-align: justify;
+    line-height: 40px;
+    box-shadow: rgb(95, 95, 95);
+}
+
+#tittle {
+    margin: 20px 740px 30px 2px;
+    font-family: "oswald";
+    text-transform: capitalize;
+    border: white solid 2px;
+    padding: 10px; 15px;
+    box-shadow: 10px 10px 10px rgb(95, 95, 95);
+    background-color: white;
+}
+
+#bek1 {
+    margin: 5px 700px 2px 2px;
+    text-transform: capitalize;
+    font-size: 30px;
+    border: white solid 2px;
+    padding: 10px; 15px;
+    box-shadow: 10px 10px 10px rgb(95, 95, 95);
+    background-color: white;
+}
+
+#bek2 {
+    margin: 30px 500px 2px 2px;
+    border: white solid 2px;
+    padding: 10px; 15px;
+    box-shadow: 10px 10px 10px rgb(95, 95, 95);
+    background-color: white;
+}
+
+#bek3 {
+    border: white solid 2px;
+    padding: 10px; 15px;
+    box-shadow: 10px 10px 10px rgb(95, 95, 95);
+    background-color: white;
+}
+
+#bek4 {
+    border: white solid 2px;
+    padding: 10px; 15px;
+    box-shadow: 10px 10px 10px rgb(95, 95, 95);
+    background-color: white;
+}
+
+
 img {
     height: 225px;
+    box-shadow: 10px 10px 10px rgb(95, 95, 95);
+    margin-left: 30px;
+    margin: white;
 }
+
+#robot {
+    box-shadow: none;
+}
+
+.imgdiv {
+    margin: 20px;
+    visibility: ;
+    display: none;
+}
+
+
