@@ -1,0 +1,6 @@
+#colordiv {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(100, 50, 20, 0.1);
+}

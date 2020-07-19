@@ -14,6 +14,8 @@ head részben ez volt megadva a html fájlban = INTERNAL CSS
 body részben a html fájlban - INLINE CSS
   <h1 style="color: green;" > Hello TTA983 programmer</h1>
 
+background-image: url("/img/cyber.jpg");
+
 */
 
 @font-face {
@@ -36,6 +38,7 @@ html {
     text-align: justify;
     line-height: 40px;
     box-shadow: rgb(95, 95, 95);
+    background-color: rgba(53, 156, 216, 0.274);
 }
 
 #tittle {
@@ -80,19 +83,30 @@ html {
     background-color: white;
 }
 
-
 img {
     height: 225px;
     box-shadow: 10px 10px 10px rgb(95, 95, 95);
     margin-left: 30px;
     margin: white;
+    position: relative;
 }
+
 
 #robot {
-    box-shadow: none;
+    height: 120px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
 }
 
-.imgdiv {
+#robot4 {
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+#hacker {
     margin: 20px;
     visibility: ;
     display: none;
