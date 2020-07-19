@@ -42,7 +42,6 @@ html {
 }
 
 #tittle {
-    margin: 20px 740px 30px 2px;
     font-family: "oswald";
     text-transform: capitalize;
     border: white solid 2px;
@@ -52,7 +51,6 @@ html {
 }
 
 #bek1 {
-    margin: 5px 700px 2px 2px;
     text-transform: capitalize;
     font-size: 30px;
     border: white solid 2px;
@@ -62,7 +60,6 @@ html {
 }
 
 #bek2 {
-    margin: 30px 500px 2px 2px;
     border: white solid 2px;
     padding: 10px; 15px;
     box-shadow: 10px 10px 10px rgb(95, 95, 95);
