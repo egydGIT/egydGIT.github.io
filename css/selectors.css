@@ -1,0 +1,43 @@
+/*
+#colordiv {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(100, 50, 20, 0.1);
+}
+*/
+
+body {
+    background-color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 20px;  
+}
+
+#login {
+    margin-top: 40px;
+    padding: 15px;
+}
+
+.login-div {
+    display: inline-block;
+    padding: 15px;
+    box-shadow: 0 0 2px;
+}
+
+.login-div input {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.login-div button: hover {
+    box-shadow: 0 0 5px;
+}
+
+.login-div input: focus {
+    box-shadow: 0 0 5px;
+}
+
+.form-group {
+     font-size: 20px;
+}
+

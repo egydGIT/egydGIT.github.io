@@ -4,8 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/selectors.css">
 </head>
 <body>
+    <div id="colordiv">
+
+    </div>
+
     <u>
         <li>
             <a href="/home.html">Home</a>
@@ -23,17 +28,24 @@
             <a href="/css/selectors.html">Login</a>
         </li>
     </u>
-    <h3>Step of order</h3>
-    <ol>
-        <li>Choose your burger</li>
-        <li>Call us 
-            <h4>
-                <p>Phone number: </p>
-            </h4>
-        </li>
-        <li>Wait less than 30 minutes</li>
-        <li>Enjoy your burger</li>
-    </ol>
-    <a href="/pages/products.html">Products</a>
+
+<h1 id="login">
+    Login
+</h1>
+
+<div class="login-div">
+    <div class="form-group">
+        <label>Email</label>
+        <input class="form-control" type="email" name="email">
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <input class="form-control" type="password" name="password">
+    </div>
+    <div class="form-group">
+        <button class="submit-btn">Login</button>
+    </div>
+</div>
+    
 </body>
 </html>
