@@ -8,7 +8,7 @@
 */
 
 body {
-    background-color: grey;
+    background-color: rgba(200, 200, 200, 0.7);
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 20px;  
 }
