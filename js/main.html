@@ -6,15 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie:edge">
     <link rel="stylesheet" href="/lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
-    <title>Document</title>
-
-    <style>
-        #title {
-            text-decoration: underline;
-            font-weight: 600;
-            display: block;
-        }
-    </style>
+    <title>About</title>
 </head>
 
 <body>
@@ -41,40 +33,36 @@
         </div>
     </nav>
 
-    <p>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
-                <p>
-                    
-                </p>
-                <a target="blank" href="https://www.javascript.com/try" >
-                    <img width="200" src="/img/skyage.jpg" alt="skyage">
-                </a>
+            <div class="col-3"></div>
+            <div class="col-6">
+                <h3>
+                    Hamburger rendelés
+                </h3>
+                <form action="">
+                    <div class="form-group">
+                        <label for="text">Feltét</label>
+                        <input id="text" type="text" name="top-input" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="number">Mennyiség</label>
+                        <input id="number" type="number" name="amount-input" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        Fizetendő: <span class="show-amount">0</span> Ft
+                    </div>
+                    <button onclick="calcAmount()" type="button" class="btn btn-primary">Megrendelés</button>
+                </form>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-            
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                
-            </div>
+            <div class="col-3"></div>
         </div>
     </div>
-    </p>
-
 </body>
 
 
-<script>
-    alert("...most jön még csak a java...");
-</script>
-<script>
-    alert("és a ... querySelector ...");
-</script>
+<script src="/js/main.js"></script>
+
 
 
 </html>
-
