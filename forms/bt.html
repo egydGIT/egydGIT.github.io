@@ -7,6 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie:edge">
     <link rel="stylesheet" href="/lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
     <title>Document</title>
+
+    <style>
+        #title {
+            text-decoration: underline;
+            font-weight: 600;
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
@@ -57,26 +65,59 @@
         </div>
     </div>
     </p>
-    
+
     <p>
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-3">
-                    One of four columns
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div id="title">
+                    Programozási nyelvek:
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    One of four columns
+                Alapvetően három kategóriába soroljuk a programozási nyelveket.
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div id="title">
+                    Gépi kód:
+                </div> 
+                A gépi kód valójában nem nyelv, mivel az a gép számára közvetlenül értelmezhető adatsort jelenti. A gépi
+                kódhoz
+                legközelebb álló nyelv az assembly nyelv. Ha egy assembly vagy mnemonik nyelv és az általa előállított
+                gépi kód között
+                egy-az-egy megfeleltetés van, akkor mondhatjuk, hogy az adott nyelv „gépi kód szintű”.
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div id="title">
+                    Assembly: 
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    One of four columns
+                A gépi kódhoz, vagyis az adott számítógép saját nyelvéhez legközelebb álló nyelveket nevezzük assembly
+                nyelveknek. Ezen a nyelven a legnehezebb programot írni, mert azt teljesen a számítógép architektúrájához alakítva, gépi
+                logika szerint kell elkészíteni. Cserébe az assembly nyelven írt programok a leggyorsabbak.
+
+                Az assembly nyelven írt programot gépi kódra az „assembler” (fordítóprogram) fordítja le. (Ebből
+                látható, hogy igazából az assembly is egy fordított nyelv, de mégsem soroljuk a fordított nyelvek közé, mivel a legtöbb esetben
+                a „fordított nyelvek” az adott nyelvről assembly-re fordítanak (belsőleg), és utána azt alakítják át gépi kóddá.)
+
+                Minden egyes processzor-családnak saját assembly nyelve van (vagy nyelvei vannak).
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <div id="title">
+                    Magas szintű nyelvek: 
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    One of four columns
-                </div>
+                A magas szintű nyelvek esetén valamilyen absztrakció segítségével az emberi logikához vagy a
+                problématérhez közelebb eső nyelven fejezzük ki a programunkat.
             </div>
         </div>
+    </div>
     </p>
 
 </body>
+
+
+
+
+
+
+
+
 
 </html>
