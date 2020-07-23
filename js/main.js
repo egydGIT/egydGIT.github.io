@@ -17,8 +17,3 @@ function calcAmount () {
     
     
 }
-
-
-
-
-
