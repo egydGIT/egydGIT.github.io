@@ -9,10 +9,9 @@
     <title>Document</title>
 
     <style>
-        #title {
-            text-decoration: underline;
-            font-weight: 600;
-            display: block;
+        #text: {
+            margin-top: 1 px;
+            padding: 1 px;
         }
     </style>
 </head>
@@ -33,6 +32,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/js/main.html">Java 2 </a>
                 </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">leg-Java<span class="sr-only">(current)</span></a>
+                </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -44,35 +46,39 @@
     <p>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-4">
 
             </div>
             <div class="col-12 col-md-6 col-lg-6">
                 <p>
-                    <button onclick="document.getElementById('myImage').src='/img/pic_bulbon.gif'" type="button" class="btn btn-light">Programmer</button>
+                    <button onclick="document.getElementById('myImage').src='/img/pic_bulbon.gif'" 
+                    type="button" class="btn btn-light">proGrammar</button>
                     
                     <img id="myImage" src="/img/pic_bulboff.gif" style="width:100px">
                     
-                    <button onclick="document.getElementById('myImage').src='/img/pic_bulboff.gif'" type="button" class="btn btn-light">Just a User</button>
+                    <button onclick="document.getElementById('myImage').src='/img/pic_bulboff.gif'" 
+                    type="button" class="btn btn-light">conf User</button>
                 </p>
                 
                 <p>
                     <a target="blank" href="https://www.javascript.com/try">
-                        <img width="380" src="/img/skyage.jpg" alt="skyage">
+                        <img width="320" src="/img/skyage.jpg" alt="skyage">
                     </a>
                 </p>
 
                 <p>
-                    <h2>What Can JavaScript Do?</h2>
+                    <h3>What Can JavaScript Do?</h3>
                 
                     <p>JavaScript can change HTML attribute values.</p>
                 
-                    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+                    <p id="text">In this case JavaScript changes the value of </p>
+                    <p id="text">the src (source) attribute of an image.</p>
+                    
                 </p>
 
             </div>
             
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-2">
 
             </div>
         </div>
