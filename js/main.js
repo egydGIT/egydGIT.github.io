@@ -104,6 +104,7 @@ let toppings = [
     "Olivabogyó",
     "Zöldfűszer"
 ]
+
 let toppingSelect = document.querySelector("#topInput");
 let index = 0;
 while(index < toppings.length) {
