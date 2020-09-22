@@ -17,7 +17,7 @@
 </tr>
 */
 
-let users = [
+/* let users = [
     {surname: "Arany", firstname: "János", age: 45},
     {surname: "Petőfi", firstname: "Sándor", age: 32},
     {surname: "Kölcsey", firstname: "Ferenc", age: 24},
@@ -27,6 +27,18 @@ let users = [
     {surname: "Zelk", firstname: "Zoltán", age: 34},
     {surname: "Weöres", firstname: "Sándor", age: 23},
     {surname: "Madách", firstname: "Imre", age: 40},
+]; */
+
+let users = [
+    {surname: " ", firstname: " ", age: 45},
+    {surname: " ", firstname: " ", age: 32},
+    {surname: " ", firstname: " ", age: 24},
+    {surname: " ", firstname: " ", age: 42},
+    {surname: " ", firstname: " ", age: 58},
+    {surname: " ", firstname: " ", age: 20},
+    {surname: " ", firstname: " ", age: 34},
+    {surname: " ", firstname: " ", age: 23},
+    {surname: " ", firstname: " ", age: 40},
 ];
 
 let tableBody = document.querySelector("#userTable tbody");
