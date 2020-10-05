@@ -13,10 +13,7 @@ buttonP12.onclick = function() {
     picture1.changePicture1();
 } 
 
-/*
-
-// Alert, de kivettem
-
+// Alert:
 let alertCloseButtons = document.querySelectorAll(".close");
 let alertCloseEventHandlerFunction = function(ev) {
     this.parentElement.style.display = "none";
@@ -26,6 +23,8 @@ for (let i=0; i < alertCloseButtons.length; i++) {
 }
 
 
+
+/*
 // Próbálkozások időzítésre:
 
 let picture1 = document.querySelector("#onceMore");
