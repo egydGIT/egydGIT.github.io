@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie:edge">
+    <link rel="stylesheet" href="/lib/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <title>Document</title>
+
+    <style>
+        #text: {
+            margin-top: 1 px;
+            padding: 1 px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/home.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/forms/java.html">leg-Java<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/js/main.html">Java 1</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/forms/JAVAim.html">jajjaJAVAimnak<span
+                            class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <p>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+
+            </div>
+            <div class="col-4">
+                <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                    <strong>Kérjük figyelmesen olvassa el a tesztet és válaszoljon a kérdésekre!</strong>
+
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <p>
+                <fieldset>
+                    <div class="form-group">
+                        <legend>
+                            <label for="text">Pontszám: </label>
+                        </legend>
+
+                        <label class="form-control" for="text">100/50</label>
+                    </div>
+                </fieldset>
+                </p>
+
+                <fieldset>
+
+                    <legend>100/100. Vizsgakérdés</legend>
+                    <span></span>
+                    <div>
+                        <input checked id="no" name="transport" type="radio" value="0">
+                        <label for="no">Rossz válasz</label>
+                    </div>
+                    <div>
+                        <input checked id="paypal" name="transport" type="radio" value="40   0">
+                        <label for="paypal">Jó válasz</label>
+                    </div>
+                    <div>
+                        <input checked id="paypal" name="transport" type="radio" value="40   0">
+                        <label for="paypal">Rossz válasz</label>
+                    </div>
+                    <div>
+                        <input checked id="paypal" name="transport" type="radio" value="40   0">
+                        <label for="paypal">Rossz válasz</label>
+                    </div>
+
+                    <button onclick="calcAmount()" type="submit" class="btn btn-primary">Válasz beküldése</button>
+                </fieldset>
+
+
+            </div>
+
+            <div class="col-4">
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    <legend>OTPdirekt</legend>
+                </div>
+
+                <div class="continer">
+                    <form>
+                        <fieldset>
+                            <legend>Banki adatok</legend>
+                            <div>
+                                <label for="name">Név:</label>
+                                <label for="name">Tóbiás</label>
+                            </div>
+                            <div>
+                                <label for="email">Bankszámlaszám: </label>
+                                <label for="number">00100110-00100101-10100000</label>
+                                <!-- 2.500.000 binálisan :-) -->
+                            </div>
+                        </fieldset>
+
+                        <form id="orderForm" action="">
+                            <div class="form-group">
+                                Összeg: 
+                                <strong>
+                                    <span class="show-amount">2.500.000</span> Ft
+                                </strong>
+                            </div>
+
+                        </form>
+
+                        <img src="/img/WAF.jpg" alt="">
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-2">
+
+            </div>
+        </div>
+    </div>
+    </p>
+
+</body>
+
+<script src="/js/changePicture.js"></script>
+
+
+</html>
