@@ -58,37 +58,41 @@
                 <p>
                 <fieldset>
                     <div class="form-group">
+                        <strong>
+                            <legend>
+                                PÓTVIZSGA
+                            </legend>
+                        </strong>
                         <legend>
-                            <label for="text">Pontszám: </label>
+                            <label for="text">Pontszám:  100/ </label>
                         </legend>
-
-                        <label class="form-control" for="text">100/50</label>
+                        <span class="form-control" id="scoreField">50</span>
                     </div>
                 </fieldset>
                 </p>
 
                 <fieldset>
 
-                    <legend>100/100. Vizsgakérdés</legend>
+                    <legend>100/100. Vizsga kérdés</legend>
                     <span></span>
                     <div>
-                        <input checked id="no" name="transport" type="radio" value="0">
+                        <input checked id="no" name="transport" type="radio" value="">
                         <label for="no">Rossz válasz</label>
                     </div>
                     <div>
-                        <input checked id="paypal" name="transport" type="radio" value="40   0">
-                        <label for="paypal">Jó válasz</label>
+                        <input checked id="yes" name="transport" type="radio" value="">
+                        <label for="yes">Jó válasz</label>
                     </div>
                     <div>
-                        <input checked id="paypal" name="transport" type="radio" value="40   0">
-                        <label for="paypal">Rossz válasz</label>
+                        <input checked id="no2" name="transport" type="radio" value="">
+                        <label for="no2">Rossz válasz</label>
                     </div>
                     <div>
-                        <input checked id="paypal" name="transport" type="radio" value="40   0">
-                        <label for="paypal">Rossz válasz</label>
+                        <input checked id="no3" name="transport" type="radio" value="">
+                        <label for="no3">Rossz válasz</label>
                     </div>
 
-                    <button onclick="calcAmount()" type="submit" class="btn btn-primary">Válasz beküldése</button>
+                    <button id="calcCredit" onclick="gotPlusScore()" type="submit" class="btn btn-primary">Válasz beküldése</button>
                 </fieldset>
 
 
@@ -116,15 +120,15 @@
 
                         <form id="orderForm" action="">
                             <div class="form-group">
-                                Összeg: 
+                                Egyenleg: 
                                 <strong>
-                                    <span class="show-amount">2.500.000</span> Ft
+                                    <span id="Ballance" class="show-amount">2500000</span> Ft
                                 </strong>
                             </div>
 
                         </form>
 
-                        <img src="/img/WAF.jpg" alt="">
+                        <img src="/img/WAF.jpg" alt="WAF">
                     </form>
                 </div>
             </div>
@@ -138,7 +142,7 @@
 
 </body>
 
-<script src="/js/changePicture.js"></script>
+<script src="/js/JAVAim.js"></script>
 
 
 </html>
