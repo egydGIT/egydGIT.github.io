@@ -1,4 +1,12 @@
+let Button = document.querySelector("#calcCredit");
+Button.onclick = function() {
+    alert("A felvételi harmadik szakaszában a fake-news felismerő képességüket, valamint a jogi kompetenciáikat teszteltük. Gratulálunk minden kedves - továbbiakban, mint - Támogatottnak!");
+};
+
+
+/*
 // under CONSTRiCTION
+
 
 // Alert:
 let alertCloseButtons = document.querySelectorAll(".close");
@@ -29,3 +37,4 @@ for (let i=0; i< numericArray.length; i++) {
     console.log(numericArray[i]);
     Ballance.innerHTML = numericArray[i];
 }
+*/
